@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BFAD6A11C86860000DA365A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6A01C86860000DA365A /* AppDelegate.swift */; };
+		5BFAD6A31C86860000DA365A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6A21C86860000DA365A /* ViewController.swift */; };
+		5BFAD6A61C86860000DA365A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD6A41C86860000DA365A /* Main.storyboard */; };
+		5BFAD6A91C86860000DA365A /* ShareCam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6A71C86860000DA365A /* ShareCam.xcdatamodeld */; };
+		5BFAD6AB1C86860000DA365A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD6AA1C86860000DA365A /* Assets.xcassets */; };
+		5BFAD6AE1C86860000DA365A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD6AC1C86860000DA365A /* LaunchScreen.storyboard */; };
+		5BFAD6B91C86860100DA365A /* ShareCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6B81C86860100DA365A /* ShareCamTests.swift */; };
+		5BFAD6C41C86860100DA365A /* ShareCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6C31C86860100DA365A /* ShareCamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BFAD6B51C86860100DA365A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BFAD6951C86860000DA365A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFAD69C1C86860000DA365A;
+			remoteInfo = ShareCam;
+		};
+		5BFAD6C01C86860100DA365A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BFAD6951C86860000DA365A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFAD69C1C86860000DA365A;
+			remoteInfo = ShareCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BFAD69D1C86860000DA365A /* ShareCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BFAD6A01C86860000DA365A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BFAD6A21C86860000DA365A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BFAD6A51C86860000DA365A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BFAD6A81C86860000DA365A /* ShareCam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShareCam.xcdatamodel; sourceTree = "<group>"; };
+		5BFAD6AA1C86860000DA365A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BFAD6AD1C86860000DA365A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BFAD6AF1C86860000DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFAD6B41C86860100DA365A /* ShareCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BFAD6B81C86860100DA365A /* ShareCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCamTests.swift; sourceTree = "<group>"; };
+		5BFAD6BA1C86860100DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFAD6BF1C86860100DA365A /* ShareCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BFAD6C31C86860100DA365A /* ShareCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCamUITests.swift; sourceTree = "<group>"; };
+		5BFAD6C51C86860100DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BFAD69A1C86860000DA365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD6B11C86860100DA365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD6BC1C86860100DA365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BFAD6941C86860000DA365A = {
+			isa = PBXGroup;
+			children = (
+				5BFAD69F1C86860000DA365A /* ShareCam */,
+				5BFAD6B71C86860100DA365A /* ShareCamTests */,
+				5BFAD6C21C86860100DA365A /* ShareCamUITests */,
+				5BFAD69E1C86860000DA365A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BFAD69E1C86860000DA365A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD69D1C86860000DA365A /* ShareCam.app */,
+				5BFAD6B41C86860100DA365A /* ShareCamTests.xctest */,
+				5BFAD6BF1C86860100DA365A /* ShareCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BFAD69F1C86860000DA365A /* ShareCam */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD6A01C86860000DA365A /* AppDelegate.swift */,
+				5BFAD6A21C86860000DA365A /* ViewController.swift */,
+				5BFAD6A41C86860000DA365A /* Main.storyboard */,
+				5BFAD6AA1C86860000DA365A /* Assets.xcassets */,
+				5BFAD6AC1C86860000DA365A /* LaunchScreen.storyboard */,
+				5BFAD6AF1C86860000DA365A /* Info.plist */,
+				5BFAD6A71C86860000DA365A /* ShareCam.xcdatamodeld */,
+			);
+			path = ShareCam;
+			sourceTree = "<group>";
+		};
+		5BFAD6B71C86860100DA365A /* ShareCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD6B81C86860100DA365A /* ShareCamTests.swift */,
+				5BFAD6BA1C86860100DA365A /* Info.plist */,
+			);
+			path = ShareCamTests;
+			sourceTree = "<group>";
+		};
+		5BFAD6C21C86860100DA365A /* ShareCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD6C31C86860100DA365A /* ShareCamUITests.swift */,
+				5BFAD6C51C86860100DA365A /* Info.plist */,
+			);
+			path = ShareCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BFAD69C1C86860000DA365A /* ShareCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BFAD6C81C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCam" */;
+			buildPhases = (
+				5BFAD6991C86860000DA365A /* Sources */,
+				5BFAD69A1C86860000DA365A /* Frameworks */,
+				5BFAD69B1C86860000DA365A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareCam;
+			productName = ShareCam;
+			productReference = 5BFAD69D1C86860000DA365A /* ShareCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BFAD6B31C86860100DA365A /* ShareCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BFAD6CB1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamTests" */;
+			buildPhases = (
+				5BFAD6B01C86860100DA365A /* Sources */,
+				5BFAD6B11C86860100DA365A /* Frameworks */,
+				5BFAD6B21C86860100DA365A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BFAD6B61C86860100DA365A /* PBXTargetDependency */,
+			);
+			name = ShareCamTests;
+			productName = ShareCamTests;
+			productReference = 5BFAD6B41C86860100DA365A /* ShareCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BFAD6BE1C86860100DA365A /* ShareCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BFAD6CE1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamUITests" */;
+			buildPhases = (
+				5BFAD6BB1C86860100DA365A /* Sources */,
+				5BFAD6BC1C86860100DA365A /* Frameworks */,
+				5BFAD6BD1C86860100DA365A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BFAD6C11C86860100DA365A /* PBXTargetDependency */,
+			);
+			name = ShareCamUITests;
+			productName = ShareCamUITests;
+			productReference = 5BFAD6BF1C86860100DA365A /* ShareCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BFAD6951C86860000DA365A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Flying Rainbow";
+				TargetAttributes = {
+					5BFAD69C1C86860000DA365A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4AWL225BFX;
+					};
+					5BFAD6B31C86860100DA365A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4AWL225BFX;
+						TestTargetID = 5BFAD69C1C86860000DA365A;
+					};
+					5BFAD6BE1C86860100DA365A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4AWL225BFX;
+						TestTargetID = 5BFAD69C1C86860000DA365A;
+					};
+				};
+			};
+			buildConfigurationList = 5BFAD6981C86860000DA365A /* Build configuration list for PBXProject "ShareCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BFAD6941C86860000DA365A;
+			productRefGroup = 5BFAD69E1C86860000DA365A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BFAD69C1C86860000DA365A /* ShareCam */,
+				5BFAD6B31C86860100DA365A /* ShareCamTests */,
+				5BFAD6BE1C86860100DA365A /* ShareCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BFAD69B1C86860000DA365A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD6AE1C86860000DA365A /* LaunchScreen.storyboard in Resources */,
+				5BFAD6AB1C86860000DA365A /* Assets.xcassets in Resources */,
+				5BFAD6A61C86860000DA365A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD6B21C86860100DA365A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD6BD1C86860100DA365A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BFAD6991C86860000DA365A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD6A31C86860000DA365A /* ViewController.swift in Sources */,
+				5BFAD6A11C86860000DA365A /* AppDelegate.swift in Sources */,
+				5BFAD6A91C86860000DA365A /* ShareCam.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD6B01C86860100DA365A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD6B91C86860100DA365A /* ShareCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD6BB1C86860100DA365A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD6C41C86860100DA365A /* ShareCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BFAD6B61C86860100DA365A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BFAD69C1C86860000DA365A /* ShareCam */;
+			targetProxy = 5BFAD6B51C86860100DA365A /* PBXContainerItemProxy */;
+		};
+		5BFAD6C11C86860100DA365A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BFAD69C1C86860000DA365A /* ShareCam */;
+			targetProxy = 5BFAD6C01C86860100DA365A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BFAD6A41C86860000DA365A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BFAD6A51C86860000DA365A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BFAD6AC1C86860000DA365A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BFAD6AD1C86860000DA365A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BFAD6C61C86860100DA365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BFAD6C71C86860100DA365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BFAD6C91C86860100DA365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BFAD6CA1C86860100DA365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BFAD6CC1C86860100DA365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareCam.app/ShareCam";
+			};
+			name = Debug;
+		};
+		5BFAD6CD1C86860100DA365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareCam.app/ShareCam";
+			};
+			name = Release;
+		};
+		5BFAD6CF1C86860100DA365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5BFAD6D01C86860100DA365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BFAD6981C86860000DA365A /* Build configuration list for PBXProject "ShareCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BFAD6C61C86860100DA365A /* Debug */,
+				5BFAD6C71C86860100DA365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BFAD6C81C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BFAD6C91C86860100DA365A /* Debug */,
+				5BFAD6CA1C86860100DA365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BFAD6CB1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BFAD6CC1C86860100DA365A /* Debug */,
+				5BFAD6CD1C86860100DA365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BFAD6CE1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BFAD6CF1C86860100DA365A /* Debug */,
+				5BFAD6D01C86860100DA365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BFAD6A71C86860000DA365A /* ShareCam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BFAD6A81C86860000DA365A /* ShareCam.xcdatamodel */,
+			);
+			currentVersion = 5BFAD6A81C86860000DA365A /* ShareCam.xcdatamodel */;
+			path = ShareCam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BFAD6951C86860000DA365A /* Project object */;
+}
