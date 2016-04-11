@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22A91DEA06A5A1CE268E2A41 /* Pods_ShareCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F59620153E2917257535C /* Pods_ShareCam.framework */; };
 		5BFAD6A11C86860000DA365A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6A01C86860000DA365A /* AppDelegate.swift */; };
 		5BFAD6A31C86860000DA365A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6A21C86860000DA365A /* ViewController.swift */; };
 		5BFAD6A61C86860000DA365A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD6A41C86860000DA365A /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		5BFAD6AE1C86860000DA365A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD6AC1C86860000DA365A /* LaunchScreen.storyboard */; };
 		5BFAD6B91C86860100DA365A /* ShareCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6B81C86860100DA365A /* ShareCamTests.swift */; };
 		5BFAD6C41C86860100DA365A /* ShareCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD6C31C86860100DA365A /* ShareCamUITests.swift */; };
+		81381BCB09D276953EE76145 /* Pods_ShareCamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57330C20D3F790B31E2AB236 /* Pods_ShareCamTests.framework */; };
+		99964188CEA301AC1450257E /* Pods_ShareCamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A97AE82FD42475E378BA046 /* Pods_ShareCamUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		178E3B53837393F231131AFD /* Pods-ShareCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareCamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareCamTests/Pods-ShareCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		29CCFD427A9907F0D584BE53 /* Pods-ShareCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareCam/Pods-ShareCam.release.xcconfig"; sourceTree = "<group>"; };
+		571F59620153E2917257535C /* Pods_ShareCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57330C20D3F790B31E2AB236 /* Pods_ShareCamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareCamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFAD69D1C86860000DA365A /* ShareCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFAD6A01C86860000DA365A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BFAD6A21C86860000DA365A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		5BFAD6BF1C86860100DA365A /* ShareCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFAD6C31C86860100DA365A /* ShareCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCamUITests.swift; sourceTree = "<group>"; };
 		5BFAD6C51C86860100DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B673F4E74E7ADF123D42909 /* Pods-ShareCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareCamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareCamTests/Pods-ShareCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A97AE82FD42475E378BA046 /* Pods_ShareCamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareCamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3972A6FC14DA88BC0BA29F4 /* Pods-ShareCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareCam/Pods-ShareCam.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4388317DE32BCB87FC8266 /* Pods-ShareCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareCamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareCamUITests/Pods-ShareCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F443E598F22AA2435529A1F7 /* Pods-ShareCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareCamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareCamUITests/Pods-ShareCamUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A91DEA06A5A1CE268E2A41 /* Pods_ShareCam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81381BCB09D276953EE76145 /* Pods_ShareCamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99964188CEA301AC1450257E /* Pods_ShareCamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				5BFAD6B71C86860100DA365A /* ShareCamTests */,
 				5BFAD6C21C86860100DA365A /* ShareCamUITests */,
 				5BFAD69E1C86860000DA365A /* Products */,
+				A97D662E925724B51E577A19 /* Pods */,
+				9785F168EC303D6D3ECB4D00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = ShareCamUITests;
 			sourceTree = "<group>";
 		};
+		9785F168EC303D6D3ECB4D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571F59620153E2917257535C /* Pods_ShareCam.framework */,
+				57330C20D3F790B31E2AB236 /* Pods_ShareCamTests.framework */,
+				7A97AE82FD42475E378BA046 /* Pods_ShareCamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97D662E925724B51E577A19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3972A6FC14DA88BC0BA29F4 /* Pods-ShareCam.debug.xcconfig */,
+				29CCFD427A9907F0D584BE53 /* Pods-ShareCam.release.xcconfig */,
+				6B673F4E74E7ADF123D42909 /* Pods-ShareCamTests.debug.xcconfig */,
+				178E3B53837393F231131AFD /* Pods-ShareCamTests.release.xcconfig */,
+				CB4388317DE32BCB87FC8266 /* Pods-ShareCamUITests.debug.xcconfig */,
+				F443E598F22AA2435529A1F7 /* Pods-ShareCamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BFAD6C81C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCam" */;
 			buildPhases = (
+				BC954DBD8A2AE7CDC7F6792A /* 📦 Check Pods Manifest.lock */,
 				5BFAD6991C86860000DA365A /* Sources */,
 				5BFAD69A1C86860000DA365A /* Frameworks */,
 				5BFAD69B1C86860000DA365A /* Resources */,
+				C46E9B1435596B8CB4DCBB2D /* 📦 Embed Pods Frameworks */,
+				0AEB36B750F43DA95F15DA96 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BFAD6CB1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamTests" */;
 			buildPhases = (
+				E3357C1AB0F879C080C34D2D /* 📦 Check Pods Manifest.lock */,
 				5BFAD6B01C86860100DA365A /* Sources */,
 				5BFAD6B11C86860100DA365A /* Frameworks */,
 				5BFAD6B21C86860100DA365A /* Resources */,
+				6353AAD6B664F504FB657A4C /* 📦 Embed Pods Frameworks */,
+				F40BBD6DFDA93A6D8925AABF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BFAD6CE1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamUITests" */;
 			buildPhases = (
+				3F48B7F1B4CA1C0C77AA2EDF /* 📦 Check Pods Manifest.lock */,
 				5BFAD6BB1C86860100DA365A /* Sources */,
 				5BFAD6BC1C86860100DA365A /* Frameworks */,
 				5BFAD6BD1C86860100DA365A /* Resources */,
+				849A2FBF8257D0E718473EA2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEB36B750F43DA95F15DA96 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareCam/Pods-ShareCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F48B7F1B4CA1C0C77AA2EDF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6353AAD6B664F504FB657A4C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareCamTests/Pods-ShareCamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849A2FBF8257D0E718473EA2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareCamUITests/Pods-ShareCamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC954DBD8A2AE7CDC7F6792A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C46E9B1435596B8CB4DCBB2D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareCam/Pods-ShareCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3357C1AB0F879C080C34D2D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F40BBD6DFDA93A6D8925AABF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareCamTests/Pods-ShareCamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BFAD6991C86860000DA365A /* Sources */ = {
@@ -404,9 +575,12 @@
 		};
 		5BFAD6C91C86860100DA365A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3972A6FC14DA88BC0BA29F4 /* Pods-ShareCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShareCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,9 +589,12 @@
 		};
 		5BFAD6CA1C86860100DA365A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CCFD427A9907F0D584BE53 /* Pods-ShareCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShareCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.frb.ShareCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +603,7 @@
 		};
 		5BFAD6CC1C86860100DA365A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B673F4E74E7ADF123D42909 /* Pods-ShareCamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ShareCamTests/Info.plist;
@@ -438,6 +616,7 @@
 		};
 		5BFAD6CD1C86860100DA365A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178E3B53837393F231131AFD /* Pods-ShareCamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ShareCamTests/Info.plist;
@@ -450,6 +629,7 @@
 		};
 		5BFAD6CF1C86860100DA365A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4388317DE32BCB87FC8266 /* Pods-ShareCamUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ShareCamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -462,6 +642,7 @@
 		};
 		5BFAD6D01C86860100DA365A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F443E598F22AA2435529A1F7 /* Pods-ShareCamUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ShareCamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -491,6 +672,7 @@
 				5BFAD6CA1C86860100DA365A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BFAD6CB1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +681,7 @@
 				5BFAD6CD1C86860100DA365A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BFAD6CE1C86860100DA365A /* Build configuration list for PBXNativeTarget "ShareCamUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +690,7 @@
 				5BFAD6D01C86860100DA365A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
